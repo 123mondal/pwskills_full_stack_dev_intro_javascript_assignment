@@ -1,0 +1,40 @@
+Name - Tanu Mondal
+Reg Email - mondaltanu77@gmail.com
+Course Name - Full Stack Development Mar’24
+Assignment Name - JavaScript Assignment
+Submission Date - Jul-11-2024
+Git Link - https://github.com/123mondal/pwskills_full_stack_dev_javascript_assignment.git
+Drive Link - https://docs.google.com/document/d/1Iv3hlzZD02X_F4c4_it2227m-m42GtWCiENwOCSkjzA/edit?usp=sharing
+
+
+
+1. Compare var, let and const in JavaScript. When would you use each?
+-> 
+var vs let vs const:
+In JavaScript, var is function-scoped, can be re-declared, and is hoisted with undefined initialization. let is block-scoped, cannot be re-declared within the same scope, and is hoisted without initialization, causing a ReferenceError if used before declaration. const is also block-scoped, must be initialized at declaration, cannot be reassigned, but allows modification of object properties or array elements. Use var in old JavaScript versions, let for variables that will change, and const for constants.
+Use of var, let and const:
+Use var in old code or when you need a variable inside a function. Use let when a variable's value might change and you want it limited to a specific block of code. Use const for variables that won't change, like fixed values or references to objects and arrays.
+
+2. What is hoisting in JavaScript? How does it affect var, let and const?
+-> Hoisting in JavaScript means moving variable function declarations to their scope. var, the declaration is passed, but its value is undefined until it is assigned, so you can use it before it is declared. Declarations for let and const are also passed, but their value is not accessed, which results in an error if used before the declaration. This makes the use of let and const safe, and prevents errors that var can cause.
+
+3. Explain JavaScript’s dynamic typing and the typeof operator with examples?
+-> JavaScript is dynamically typed, which means that variables can hold values ​​of any type at any time, and the variable type can change as it is created. You do not need to declare the type of a variable when you create it. For example - 
+let x = 90; now the variable x is a number, if we re-assign x = “PWSkills” then the type of variable x is String.
+In JavaScript there is an operator called typeof it is used to specify the type of variable or value. It returns a string identifying the method. For example - 
+let x = “PWSkills”; if you want to know which type of variable or value it is you should write console.log(typeof x); it will print “string”. You can also check the type of a value like this console.log(typeof true); it will print “boolean”.
+
+4. How can you manipulate strings in JavaScript? Provided examples of common methods.
+-> JavaScript provides various methods for string manipulation. You can combine a string with the plus (+) operator or template literals. The substring removal can occur with either slice() or substring(). Use indexOf() or includes() to parse a string. There are many alternatives for tasks such as casing, searching using regular expressions, and replacement parts.
+Examples:
+Combine two or more strings using + operator:
+let name  = “Tanu” + “ “ + “Mondal”;
+Convert to uppercase or lowercase using JavaScript built in method:
+name = name.toUpperCase();
+name = name.toLowerCase();
+To slice a part of the String we have a method called slice():
+name = name.slice(0, 4);
+Output is “Tanu”. But the full string was “Tanu Mondal”
+
+5. What are the differences and similarities between null and undefined in JavaScript?
+-> In JavaScript, both null and undefined represent the absence of a value, but they are used in different contexts. null is explicitly set by developers to indicate no value, while undefined usually indicates a variable that has been declared but not yet defined.
