@@ -1,9 +1,9 @@
 Name - Tanu Mondal
 Reg Email - mondaltanu77@gmail.com
 Course Name - Full Stack Development Mar’24
-Assignment Name - JavaScript Assignment
+Assignment Name - Introduction to JavaScript Assignment
 Submission Date - Jul-11-2024
-Git Link - https://github.com/123mondal/pwskills_full_stack_dev_javascript_assignment.git
+Git Link - https://github.com/123mondal/pwskills_full_stack_dev_intro_javascript_assignment.git
 Drive Link - https://docs.google.com/document/d/1Iv3hlzZD02X_F4c4_it2227m-m42GtWCiENwOCSkjzA/edit?usp=sharing
 
 
